@@ -1,0 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
+}
+html{
+    padding: 0px;
+    margin: 0px;
+}
+.index{
+    background-color:#94a3b8 ;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.cards{
+    grid-column: 1/2;
+}
+.header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.dashboard{
+    background-color: #7c3aed;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
