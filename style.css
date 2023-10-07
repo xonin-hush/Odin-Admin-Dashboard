@@ -13,13 +13,20 @@ html {
     margin: 0px;
 
 }
-li{
-    font-size: 20px;
-    list-style: none;
-    text-align: start;
+#search-bar{
+    border-radius: 20px;
+    border-style: none;
+    background-color: #e2e8f0;
+    
 }
- li svg {
-    height: 1em;
+ul li {
+    list-style: none;
+    display: flex;
+    
+    
+}
+.line{
+    display: flex;
 }
 
 .header {
