@@ -13,14 +13,25 @@ html {
     margin: 0px;
 
 }
+li{
+    font-size: 20px;
+    list-style: none;
+    text-align: start;
+}
+ li svg {
+    height: 1em;
+}
 
 .header {
+    
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: #ffffff;
+    box-shadow: #888888;
 }
 
 .index {
+    
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -36,9 +47,11 @@ html {
     grid-column: 1/2;
     gap: 20px;
 }
-.side-cards .card{
-    margin-bottom:20px ;
+
+.side-cards .card {
+    margin-bottom: 20px;
 }
+
 .card {
     text-align: start;
     padding: 4%;
@@ -48,7 +61,7 @@ html {
     /* height:clamp(fit-content, 160px, 250px) ; */
     max-height: 140px;
     max-width: 450px;
-    
+
 }
 
 
