@@ -13,24 +13,37 @@ html {
     margin: 0px;
 
 }
-#search-bar{
+
+.search-bar {
     border-radius: 20px;
     border-style: none;
     background-color: #e2e8f0;
-    
+    width: 400px;
+    height: 30px;
+    padding-left: 5px;
+
 }
+#search-icon{
+    height: 32px;
+}
+div img {
+    height: 1em;
+    vertical-align: bottom;
+}
+
 ul li {
     list-style: none;
     display: flex;
-    
-    
+
+
 }
-.line{
+
+.line {
     display: flex;
 }
 
 .header {
-    
+    margin-top: 2%;
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: #ffffff;
@@ -38,7 +51,7 @@ ul li {
 }
 
 .index {
-    
+
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 3fr 1fr;
