@@ -13,7 +13,8 @@ html {
     margin: 0px;
 
 }
-.button{
+
+.button {
     background-color: #1992d4;
     color: #ffffff;
     border-color: #1992d4;
@@ -23,11 +24,13 @@ html {
     height: 35px;
     justify-self: center;
     margin-bottom: 20px;
-  }
-  .button:hover {
+}
+
+.button:hover {
     background-color: #145274;
-    border-color:#145274;
-  }
+    border-color: #145274;
+}
+
 .search-bar {
     border-radius: 20px;
     border-style: none;
@@ -36,12 +39,14 @@ html {
     height: 30px;
     padding-left: 5px;
     margin-left: 10px;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 
 }
-#search-icon{
+
+#search-icon {
     height: 32px;
 }
+
 div img {
     height: 1em;
     vertical-align: bottom;
@@ -54,9 +59,6 @@ ul li {
 
 }
 
-.line {
-    display: flex;
-}
 
 .header {
     margin-top: 2%;
@@ -65,6 +67,7 @@ ul li {
     background-color: #ffffff;
     box-shadow: #888888;
     padding-left: 60px;
+
 }
 
 .index {
@@ -83,10 +86,11 @@ ul li {
     grid-template-columns: repeat(2, 1fr);
     grid-column: 1/2;
     gap: 20px;
+    margin-top: 70px;
 }
 
 .side-cards .card {
-    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 .card {
@@ -108,9 +112,11 @@ ul li {
     grid-row: 1/3;
     color: #ffffff;
 }
-.first-row{
+
+.first-row {
     display: flex;
 }
-.second-row{
+
+.second-row {
     display: flex;
 }
