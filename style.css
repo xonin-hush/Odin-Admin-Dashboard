@@ -5,6 +5,7 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 6fr;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -86,7 +87,9 @@ ul li {
     grid-column: 1/2;
     gap: 20px;
 }
-
+p{
+    font-weight:400;
+}
 .card {
     text-align: start;
     padding: 2em;
@@ -95,6 +98,7 @@ ul li {
     max-height: 140px;
     max-width: 450px;
     border-left: 10px solid #7c3aed;
+
 }
 
 .side-cards .card {
