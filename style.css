@@ -44,7 +44,9 @@ html {
     gap: 20px;
 
 }
-
+.title{
+    font-weight: bolder;
+}
 .button {
     align-self: end;
     background-color: #7c3aed;
@@ -130,9 +132,7 @@ svg {
 
 }
 
-p {
-    font-weight: 400;
-}
+
 
 .card {
     display: flex;
