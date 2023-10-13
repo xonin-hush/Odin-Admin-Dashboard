@@ -1,4 +1,3 @@
-# Odin-Admin-Dashboard
 # [Odin-Admin-Dashboard](xonin.me/Odin-Admin-Dashboard/)
 This is a project that demonstrates some CSS skills and that is supposed to show or test some skills/lessons demonstrated at "Intermediate HTML and CSS Course" at [The Odin Project](https://theodinproject.com).
 
