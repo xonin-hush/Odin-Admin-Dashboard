@@ -80,7 +80,7 @@ html {
 }
 
 div img {
-    height: 1em;
+    height:1.5em ;
     vertical-align: bottom;
 }
 
@@ -149,7 +149,9 @@ p {
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 .icons{
+    margin-top: 5px;
     align-self: end;
+    justify-content: center;
 }
 .side-cards .card {
     margin-bottom: 20px;
