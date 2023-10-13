@@ -100,9 +100,7 @@ svg {
     flex-direction: row;
 
 }
-.logo{
-    margin-left: 1em;
-}
+
 .header {
     margin-right: 3em;
     margin-top: 2%;
@@ -218,16 +216,23 @@ p {
 }
 
 span , .logo {
-    font-size: 2em;
-    height: 100px;
+    font-size: 1.4em;
+    height: 60px;
     display: flex;
     align-items: center;
     font-weight: bolder;
     gap: 10px;
 }
-
+.logo{
+    margin-left: 1em;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
 span svg {
     display: block;
     height: 1em;
     
+}
+#support{
+    margin-top: 3em;
 }
