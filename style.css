@@ -1,4 +1,3 @@
-
 body {
     padding: 0px;
     margin: 0px;
@@ -35,7 +34,7 @@ html {
 .second-row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .buttons {
@@ -57,6 +56,7 @@ html {
     height: 35px;
     justify-self: center;
     margin-bottom: 20px;
+    font-weight: bolder;
 }
 
 .button:hover {
@@ -80,29 +80,28 @@ html {
 }
 
 div img {
-    height:1.5em ;
+    height: 1.5em;
     vertical-align: bottom;
 }
 
 ul li {
     list-style: none;
-    display: flex;
+    /* display: flex; */
 }
 
-ul{
-    display: grid;
-}
-svg{
+
+svg {
     color: white;
     fill: white;
 }
+
 .line {
     display: flex;
     flex-direction: row;
-    
+
 }
 .logo{
-    display:grid;
+    margin-left: 1em;
 }
 .header {
     margin-right: 3em;
@@ -148,14 +147,16 @@ p {
     border-left: 10px solid #7c3aed;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
-.icons{
+
+.icons {
     margin-top: 5px;
     align-self: end;
     justify-content: center;
 }
+
 .side-cards .card {
     margin-bottom: 20px;
-    height:fit-content ;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -181,31 +182,52 @@ p {
     position: relative;
     align-self: start;
 }
-.profile{
+
+.profile {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.pfp{
+
+.pfp {
     border-radius: 100%;
     height: 70px;
     width: 70px;
 }
-.side-cards img{
+
+.side-cards img {
     height: 50px;
     width: 50px;
 }
-#first-row-right .pfp{
+
+#first-row-right .pfp {
     height: 40px;
     width: 40px;
 }
-.bold{
+
+.bold {
     font-weight: bolder;
     font-size: larger;
 }
-.profile p{
+
+.profile p {
     margin: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 15px;
+}
+
+span , .logo {
+    font-size: 2em;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    gap: 10px;
+}
+
+span svg {
+    display: block;
+    height: 1em;
+    
 }
